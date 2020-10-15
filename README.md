@@ -2,7 +2,7 @@
 </p>
 
 <h3 align="center">Service de géocodage</h3>
-<p align="center">Migration du service de géocodage en utilisant Pelias.</p>
+<p align="center">Installation du service de géocodage en utilisant la solution Pelias.</p>
 
 <details open>
 <summary>Information</summary>
@@ -61,7 +61,7 @@ Au moins 8Go de RAM sont nécessaires.
 
 ```bash
 # clone this repository
-git clone https://github.com/rtaggo/ggogeoservice_pelias.git && cd ggogeoservice_pelias
+git clone https://github.com/rtaggo/ggogeocoder_pelias.git && cd ggogeocoder_pelias
 
 ```
 
