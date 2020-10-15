@@ -1,7 +1,5 @@
 #!/bin/bash
 echo "Cloning GGO Geocoder Pelias Repository"
-# clone this repository
-git clone https://github.com/rtaggo/ggogeocoder_pelias.git && cd ggogeocoder_pelias
 
 # install pelias script
 echo "Installing Pelias Script"
