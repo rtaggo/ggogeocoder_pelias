@@ -11,10 +11,8 @@ pelias compose pull
 pelias elastic start
 pelias elastic wait
 pelias elastic create
-pelias download wof
-pelias download osm
+pelias download all
 pelias prepare all
-pelias import wof
-pelias import osm
+pelias import all
 pelias compose up
 

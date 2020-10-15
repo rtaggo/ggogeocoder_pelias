@@ -81,26 +81,13 @@ chmod 755 *.sh
 
 ### Configuration de l'environnement
 
-Le script `01_setup_env.sh` télécharge le dépôt Pelias Docker et installe le script utilitaire `pelias`.
+Le script `01_setup_env.sh` télécharge le dépôt GGOGeocoder Pelias, installe le script utilitaire `pelias` et configure l'environnement pour la france.
 
 ```bash
 ./01_setup_env.sh
 ```
 
-Ce qui est exécuté en détails
-
-```bash
-# change directory to the where you would like to install Pelias
-# cd /path/to/install
-
-# clone this repository
-git clone https://github.com/pelias/docker.git && cd docker
-
-# install pelias script
-ln -s "$(pwd)/pelias" /usr/local/bin/pelias
-```
-
-### Lancement de la solution Pelias
+### Lancement du Géocodeur
 
 Le script `02_run_pelias.sh` télécharge/prepare/construire la solution Pelias pour la France et les DOM/TOM.
 Cette opération peut prendre du temps (patience ....)
@@ -153,4 +140,4 @@ ${GGOSERVICEPROXY_INSTALL_DIR}/test_ggogeoservice_proxy.sh
 
 # Pour aller plus loin
 
-Pour plus de détails, sur l'installation de Palias documentation [Pelias](Pelias.md).
+Pour plus de détails, sur l'installation de Palias documentation [Pelias](https://github.com/pelias/docker/blob/master/README.md).
