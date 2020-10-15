@@ -2,7 +2,7 @@
 echo "Current directory $(pwd)"
 
 echo "Moving to france/ directory"
-cd france
+cd projects/france
 
 shopt -s extglob
 # These folders can be entirely deleted after the import into elastic search
